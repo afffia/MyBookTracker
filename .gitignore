@@ -1,0 +1,29 @@
+#Database
+config.php
+
+#Uploaded
+uploads/
+
+#XAMPP
+*.log
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+desktop.ini
+
+#code editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#PHP error logs
+php_errorlog
+error_log
+
+#Node modules
+node_modules/
+
+#Environment files
+.env
