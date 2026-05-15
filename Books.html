@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+        <h1 class="logo"> <a href="homepage.html">MyBookTracker</a> </h1>
+            <button class="btnloginpopup">Login</button></header>
+<!-- MAIN -->
+<div class="main">
+
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebarbook">
+    <img src="https://via.placeholder.com/200x300" class="cover">COVER PAGE HERE
+
+    <button class="btnbook primary">Save</button>
+    <button class="btnbook">Add to list</button>
+
+    <div class="stats">
+      <p> # views</p>
+      <p> # saves</p>
+      <p>⭐ # / # ratings</p>
+    </div>
+
+    <div class="info">
+      <p><strong>Author:</strong> 한보연</p>
+      <p><strong>Language:</strong> Korean</p>
+      <p><strong>Status:</strong> Completed</p>
+      <p><strong>Chapters:</strong> 279</p>
+      <p><strong>Genres:</strong> Drama, Fantasy, Romance</p>
+      <p><strong>Tags:</strong> Revenge, schemes</p>
+    </div>
+  </aside>
+
+  <!-- RIGHT CONTENT -->
+  <section class="content">
+
+    <!-- TITLE -->
+    <h1>book name</h1><br>
+    <p class="subtitle">Native title: 속죄, 그 잔혹함에 대하여</p>
+
+    <!-- TABS -->
+    <div class="tabs">
+      <button class="bookactive">About</button>
+      <button>Where to Read</button>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="card">
+      <h2>Summary</h2>
+      <p>
+        One night, becky picked up the key to a safe he had once desperately searched for...
+        The cat was oddly irritating. she wanted to put it out of sight...
+      </p>
+    </div>
+
+    <!-- DISCUSSION -->
+    <div class="card">
+      <h2>Latest Discussion</h2>
+      <p>No discussions yet</p>
+      <button class="btnbook primary">Start a discussion</button>
+    </div>
+
+    <!-- REVIEWS -->
+    <div class="card">
+      <h2>Reviews</h2>
+      <p>No reviews yet</p>
+      <button class="btnbook">Add Review</button>
+    </div>
+  </section>
+   <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+<div class="form-box login">
+        <h2>Login</h2>
+    <form action="#">
+<div class="input-box">
+            <span class="icon">
+                <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" id="email" required>
+            <label>Email</label>
+</div>
+<div class="input-box">
+            <span class="icon">
+                <ion-icon name="lock-closed"></ion-icon>
+            </span>
+            <input type="password" id="password" required>
+            <label>Password</label>
+</div>
+<div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label> 
+                <a href="#">Forgot password?</a>
+</div>
+            <button type="submit" class="btn">login</button>
+<div class="login-register">
+            <p>Don't have an account?<a href="#" class="signup-link">Signup</a></p>
+</div>
+    </form>
+</div>
+<div class="form-box register">
+        <h2>Sign Up</h2>
+    <form action="#">
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </span>
+            <input type="text" id="username" required>
+            <label>Username</label>
+        </div>
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" id="email" required>
+            <label>Email</label>
+        </div>
+            <div class="input-box">
+            <span class="icon">
+                <ion-icon name="lock-closed"></ion-icon>
+            </span>
+            <input type="password" id="password" required>
+            <label>Password</label>
+        </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">I agree to the terms & conditions</label> 
+            </div>
+            <button type="submit" class="btn">Signup</button>
+        <div class="login-register">
+            <p>Already have an account?<a href="#" class="login-link">login</a></p>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
