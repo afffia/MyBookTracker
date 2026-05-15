@@ -1,10 +1,10 @@
-#Database
+# Database
 config.php
 
-#Uploaded
+# Uploaded
 uploads/
 
-#XAMPP
+# XAMPP
 *.log
 *.bak
 *.tmp
@@ -12,18 +12,18 @@ Thumbs.db
 .DS_Store
 desktop.ini
 
-#code editor
+# code editor
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-#PHP error logs
+# PHP error logs
 php_errorlog
 error_log
 
-#Node modules
+# Node modules
 node_modules/
 
-#Environment files
+# Environment files
 .env
